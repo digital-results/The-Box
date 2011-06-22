@@ -1,0 +1,25 @@
+##
+####### NON WWW to WWW
+##
+
+# Options +FollowSymLinks
+# RewriteEngine On
+# RewriteCond %{HTTP_HOST} ^website\.com$ [NC]
+# RewriteRule ^(.*)$ http://www.website.com/$1 [R=301,L]
+
+
+##
+####### TEMPORARY REDIRECT 307 (Used for when the site is undergoing maintenance)
+##
+
+# RewriteEngine On
+# RewriteBase /
+# RewriteCond %{REMOTE_ADDR} !^88\.215\.0\.46
+# RewriteCond %{REQUEST_URI} !^/holding/.*$
+# RewriteRule ^(.*)$ http://www.yourdomain.co.uk/holding/ [R=307,L]
+
+##
+####### 404 Template
+##
+
+ErrorDocument 404 /error/index.php
