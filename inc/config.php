@@ -1,16 +1,16 @@
 <?php
 
-// -- Box v2.6 -- 01/06/11
+// -- Box v2.7 -- 01/06/11
 
-$directory = 'box/2.6/'; // If the site is in a sub-directory
+$directory = 'box/2.7/'; // If the site is in a sub-directory
 
 define('SITE_STATUS', 'TESTING'); // If in sub-directory 'TESTING' if not 'LIVE'
 
 define('TITLE', 'A New Website');
 
-define('EMAIL_TO', 'info@digital-results.com'); // For contact forms
+define('EMAIL_TO', 'to@email.com'); // For contact forms
 
-define('EMAIL_BCC', 'emails@digital-results.com');
+define('EMAIL_BCC', 'bcc@email.com');
 
 define('META_DESCRIPTION', 'Description Here'); // Generic META data (can be overwritten)
 
