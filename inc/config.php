@@ -1,8 +1,8 @@
 <?php
 
-// -- Box v2.7 -- 01/06/11
+// -- Box v2.8 -- 21/07/11
 
-$directory = 'box/2.7/'; // If the site is in a sub-directory
+$directory = 'box/'; // If the site is in a sub-directory
 
 define('SITE_STATUS', 'TESTING'); // If in sub-directory 'TESTING' if not 'LIVE'
 
