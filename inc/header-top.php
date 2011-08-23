@@ -24,7 +24,6 @@ switch ($page) {
 <title><?php echo $title.' - '.TITLE; ?></title>
 
 <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=8" />
 
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
 
